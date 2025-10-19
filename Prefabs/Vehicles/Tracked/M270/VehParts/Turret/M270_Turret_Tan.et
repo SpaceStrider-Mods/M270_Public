@@ -1,0 +1,13 @@
+Turret : "{2AC9C45DCCF3F08B}Prefabs/Vehicles/Tracked/M270/VehParts/Turret/M270_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{5E0436DF33F75719}" {
+     SourceMaterial "m270_launcher"
+     AssignedMaterial "{CA8B9C8F8B46BB2B}Assets/Vehicles/Tracked/M270/Data/Tan/m270_launcher_Tan.emat"
+    }
+   }
+  }
+ }
+}

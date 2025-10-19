@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{12281EA0C10587B0}Assets/Vehicles/Tracked/M270/Data/m270_hull_MERDC.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

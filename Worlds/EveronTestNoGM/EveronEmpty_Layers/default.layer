@@ -1,0 +1,231 @@
+SCR_VehicleDebug {
+ coords 10667.69 2.343 11788.927
+ m_VehicleName "M270_MERDC1"
+ m_CompartmentType TURRET
+}
+GenericEntity : "{0158DA77260E55A2}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_MLRS.et" {
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames +{
+   }
+  }
+  BGONE_ArtilleryWeaponMuzzlePoints "{64D22765E13BBFED}" {
+   m_aMuzzleEndPositions {
+    PointInfo "{64D22765D550370F}" {
+     PivotID "barrel_muzzle_01"
+    }
+    PointInfo "{64D22765D422AD80}" {
+     PivotID "barrel_chamber_02"
+    }
+    PointInfo "{64D22765D4768AB8}" {
+     PivotID "barrel_chamber_03"
+    }
+    PointInfo "{64D22765D78D885F}" {
+     PivotID "barrel_chamber_04"
+    }
+    PointInfo "{64D22765D7C1594A}" {
+     PivotID "barrel_chamber_05"
+    }
+    PointInfo "{64D22765D7152407}" {
+     PivotID "barrel_chamber_06"
+    }
+   }
+  }
+  InventoryItemComponent "{61B28C67FEC7ABBA}" {
+   Attributes SCR_ItemAttributeCollection "{61B2A217F4C03790}" {
+    ItemDisplayName UIInfo "{64CF6E46B239F20A}" {
+     Name "#SPC-Weapon_MLRS_Name"
+     Description "#SPC-Weapon_MLRS_Description"
+    }
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{5CEF3911C56CE660}Assets/Weapons/Magazines/MLRS/m270_mlrs_M26_Magazine.xob"
+  }
+  RigidBody "{64CF6E46B239F21B}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_WeaponBlastComponent "{64CF7D4CDF08787D}" {
+   m_aBlastEffects {
+    SCR_WeaponBlastEffect "{64CF7D4CC400F926}" {
+     m_eDamageType COLLISION
+     m_DamageEffect SCR_ExplosionDamageEffect "{64CF7D431DC828A3}" {
+     }
+     m_fDamageValue 200
+     m_aDistanceDamageFalloff +{
+     }
+     m_aAngleDamageFalloff +{
+     }
+    }
+    SCR_WeaponBlastEffect "{64CF7D432868189D}" {
+     m_eDamageType EXPLOSIVE
+     m_DamageEffect SCR_BackBlastDamageEffect "{6262C5CDA676872D}" {
+      m_fResilienceDamageValueMultiplier 5
+     }
+     m_fDamageValue 9
+     m_aDistanceDamageFalloff +{
+     }
+     m_aAngleDamageFalloff +{
+     }
+    }
+   }
+   m_BlastOrigin PointInfo "{64CF7D4338CB802E}" {
+    PivotID "barrel_chamber_03"
+    Offset 0 -0.1485 -2
+    Angles 0 180 0
+   }
+   m_fBlastLength 10
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SCR_RocketEjectorMuzzleComponent "{61A6977B6DC1FE72}" {
+     components {
+      MultiBarrelMuzzleEffectComponent "{61A6977B64FD4BE6}" {
+       ParticleEffect "{BDBED18B1C4B8ACB}Particles/Weapon/Muzzle_Rocket_Pod_MLRS_Back.ptc"
+       EffectPositions {
+        EntitySlotInfo Rocket01 {
+         PivotID "barrel_chamber_01"
+         Offset 0 0 -2
+        }
+        EntitySlotInfo Rocket02 {
+         PivotID "barrel_chamber_02"
+         Offset 0 0 -2
+        }
+        EntitySlotInfo Rocket03 {
+         PivotID "barrel_chamber_03"
+         Offset 0 0 -2
+        }
+        EntitySlotInfo Rocket04 {
+         PivotID "barrel_chamber_04"
+         Offset 0 0 -2
+        }
+        EntitySlotInfo Rocket05 {
+         PivotID "barrel_chamber_02"
+         Offset 0 0 -2
+        }
+        EntitySlotInfo Rocket06 {
+         PivotID "barrel_chamber_06"
+         Offset 0 0 -2
+        }
+       }
+      }
+      MultiBarrelMuzzleEffectComponent "{64CF6E4680E12395}" {
+       ParticleEffect "{D4CDEE9D1C462324}Particles/Weapon/Muzzle_Rocket_Pod_M260_Back.ptc"
+      }
+      MultiBarrelMuzzleEffectComponent "{64D357FA3F342A05}" {
+       ParticleEffect "{D9FBF6FF478AF988}Particles/Weapon/Muzzle_Rocket_Pod_MLRS_Front.ptc"
+       EffectPositions {
+        EntitySlotInfo Rocket01 {
+         PivotID "barrel_muzzle_01"
+        }
+        EntitySlotInfo Rocket02 {
+         PivotID "barrel_muzzle_02"
+        }
+        EntitySlotInfo Rocket03 {
+         PivotID "barrel_muzzle_03"
+         Angles 0 180 0
+        }
+        EntitySlotInfo Rocket04 {
+         PivotID "barrel_muzzle_04"
+         Angles 0 180 0
+        }
+        EntitySlotInfo Rocket05 {
+         PivotID "barrel_muzzle_05"
+         Angles 0 180 0
+        }
+        EntitySlotInfo Rocket06 {
+         PivotID "barrel_muzzle_06"
+         Angles 0 180 0
+        }
+       }
+       ResetOnFire 0
+       WrapBarrelIndex 0
+      }
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 0 2
+     }
+    }
+   }
+   additionalActions {
+    SCR_ResupplyRocketPodSupportStationAction "{62B2B72BF58B3573}" {
+     ParentContextList +{
+     }
+     ActionTitle "Resupply: HE"
+     "Sort Priority" -100
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{64CF6E46B23A6A66}" {
+      m_sItemPrefab "{072A755D5CB85D47}Prefabs/Weapons/Ammo/Ammo_Rocket_Hydra70_HE_M229.et"
+     }
+    }
+    SCR_RefundVehicleAmmoSupportStationAction "{62B2D3B0476BF33D}" {
+     CanAggregate 1
+     m_sSoundProject "{9DD9C6279F4489B4}Sounds/SupportStations/SupportStations_Vehicles.acp"
+    }
+    SCR_RefundPylonSupportStationAction "{62B2D3B052E908E4}" {
+    }
+   }
+  }
+ }
+ coords 10659.796 3.273 11803.44
+}
+Vehicle BTR70_Base1 : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
+ coords 10664.46 2.344 11777.424
+}
+Turret : "{2AC9C45DCCF3F08B}Prefabs/Vehicles/Tracked/M270/VehParts/Turret/M270_Turret.et" {
+ coords 10663.711 3.777 11798.897
+}
+GenericEntity : "{34061D40BE3AC345}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_M260_Loaded_HE_M229.et" {
+ coords 10655.327 2.699 11804.72
+}
+Vehicle BRDM2_base1 : "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et" {
+ coords 10680.318 3.175 11794.182
+}
+Turret : "{5B1E47C5B1808855}Prefabs/Vehicles/Tracked/M270/VehParts/Turret/M270_Turret_Tan.et" {
+ coords 10676.301 2.835 11789.976
+}
+Tank M270_MERDC1 : "{6C330BECAAF4FD38}Prefabs/Vehicles/Tracked/M270/M270_MERDC.et" {
+ coords 10721.737 20.459 11761.172
+ angleX -1.957
+ angleY -14.553
+ angleZ -0.416
+}
+GenericEntity : "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et" {
+ coords 10673.02 2.344 11777.395
+}
+GenericEntity : "{90288877EC3CD731}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_MLRS_Loaded_Cluster_M26_Tan.et" {
+ coords 10672.726 2.431 11781.043
+}
+Turret : "{A3CD36CCA98B4A21}Prefabs/Vehicles/Tracked/M270/VehParts/Turret/M270_Turret_MERDC.et" {
+ coords 10671.624 2.713 11795.938
+}
+GenericEntity : "{A9DA839C1B3FFF1E}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_MLRS_Loaded_HE_M31_Tan.et" {
+ coords 10675.257 2.531 11781.086
+}
+GenericEntity : "{ABBF33D2CDB43CF9}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_MLRS_Loaded_HE_M31.et" {
+ coords 10651.594 3.092 11802.424
+}
+GenericEntity : "{CA43E7527570A5ED}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_M260.et" {
+ coords 10662.443 2.852 11804.105
+}
+Turret : "{DF5979FDE2682F70}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_base.et" {
+ coords 10682.604 3.345 11786.715
+}
+GenericEntity : "{E1817E624C7A5ABE}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_MLRS_Loaded_Cluster_M26.et" {
+ coords 10653.278 2.901 11803.854
+}
+Turret : "{EA9C5B7C5F4C7EEC}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/UH1H_M260_Carrier_combined_base.et" {
+ coords 10656.384 2.344 11799.522
+}
+EjectableProjectile : "{ECD8628EBF7E5F6B}Prefabs/Weapons/Ammo/Ammo_Rocket_Hydra70.et" {
+ coords 10657.215 2.567 11807.128
+}
+Tank M270_Tan1 : "{F339845D54D36A47}Prefabs/Vehicles/Tracked/M270/M270_Tan.et" {
+ coords 10663.319 2.343 11789.171
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0EC03D1E355ABF62}Prefabs/Vehicles/Tracked/M270/Configs/M270_Tyre.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

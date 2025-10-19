@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F7D01194E94D9CDF}Sounds/Vehicles/Wheeled/BTR70/Vehicles_M270_Turret.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

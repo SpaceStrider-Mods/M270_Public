@@ -1,0 +1,89 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPItemInputClass {
+   id 1
+   name "rotation4"
+   tl -11.929 -21.405
+   children {
+    2
+   }
+  }
+  IOPItemInputClass {
+   id 3
+   name "rotation13"
+   tl -21.667 95.833
+   children {
+    4
+   }
+  }
+  IOPItemInputClass {
+   id 5
+   name "suspension"
+   tl -26.667 216.667
+   children {
+    6
+   }
+  }
+ }
+ Outputs {
+  IOPItemOutputClass {
+   id 2
+   name "LeftWheels"
+   tl 203.407 -20.659
+   input 1
+  }
+  IOPItemOutputClass {
+   id 4
+   name "RightWheels"
+   tl 202.5 94.167
+   input 3
+  }
+  IOPItemOutputClass {
+   id 6
+   name "suspension"
+   tl 201.667 216.667
+   input 5
+  }
+ }
+ compiled IOPCompiledClass {
+  visited {
+   261 262 133 134 5 6
+  }
+  ins {
+   IOPCompiledIn {
+    data {
+     1 2
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 65538
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 131074
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+  }
+  processed 6
+  version 2
+ }
+}

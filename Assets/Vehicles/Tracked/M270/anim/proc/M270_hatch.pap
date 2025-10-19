@@ -1,0 +1,470 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 10244
+   name "Signal 10"
+   tl -587.5 93
+   res "{7197FF232CE10386}Assets/Vehicles/Tracked/M270/anim/proc/M270_hatch.siga"
+   inputsport {
+    1 20 34 35 36
+   }
+   outputsport {
+    3 24 37 38 39
+   }
+   inputvalues {
+    1 1 1 0.98 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 1
+   }
+  }
+ }
+ funcs {
+  RotationMakeClass {
+   id 2054
+   name "RotationMake"
+   tl -278.333 -169.167
+   ctl 2191.579 0
+   iops {
+    IOPConnectionClass iopConnection {
+    }
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 10244
+         port 3
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    3078
+   }
+  }
+  RotationSetClass {
+   id 3078
+   name "RotationSet"
+   tl -54.167 -214.167
+   ctl 2671.419 955.62
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 2054
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 4102
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  BoneClass {
+   id 4102
+   name "Bone"
+   version 0
+   tl -280 -250.833
+   ctl 0 0.05
+   outs {
+    3078
+   }
+   bone "v_door_window_L01"
+  }
+  RotationMakeClass {
+   id 7174
+   name "RotationMake"
+   tl -277 64
+   ctl 2191.579 0
+   iops {
+    IOPConnectionClass iopConnection {
+    }
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 10244
+         port 24
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    9222
+   }
+  }
+  BoneClass {
+   id 8198
+   name "Bone"
+   version 0
+   tl -281 -25.25
+   ctl 0 0.05
+   outs {
+    9222
+   }
+   bone "v_door_R01"
+  }
+  RotationSetClass {
+   id 9222
+   name "RotationSet"
+   tl -62 4
+   ctl 2671.419 955.62
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 7174
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 8198
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  RotationMakeClass {
+   id 11270
+   name "RotationMake 11270"
+   tl -270 335
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 10244
+         port 37
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    16390
+   }
+  }
+  RotationMakeClass {
+   id 12294
+   name "RotationMake 12294"
+   tl -283.75 553.75
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 10244
+         port 38
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    15366
+   }
+  }
+  RotationMakeClass {
+   id 13318
+   name "RotationMake 13318"
+   tl -290 791.25
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 10244
+         port 39
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    14342
+   }
+  }
+  RotationSetClass {
+   id 14342
+   name "RotationSet 14342"
+   tl -81.25 727.5
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 19462
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 13318
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass {
+   id 15366
+   name "RotationSet 15366"
+   tl -66.25 501.25
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 18438
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 12294
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass {
+   id 16390
+   name "RotationSet 16390"
+   tl -58.75 270
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 17414
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 11270
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 17414
+   name "Bone 17414"
+   version 0
+   tl -258.75 250
+   outs {
+    16390
+   }
+   bone "v_window_01"
+  }
+  BoneClass {
+   id 18438
+   name "Bone 18438"
+   version 0
+   tl -268.75 475
+   outs {
+    15366
+   }
+   bone "v_window_02"
+  }
+  BoneClass {
+   id 19462
+   name "Bone 19462"
+   version 0
+   tl -290 705
+   outs {
+    14342
+   }
+   bone "v_window_03"
+  }
+ }
+ model "{CAEAB38C79594241}Assets/Vehicles/Tracked/M270/m270_mrls_base.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   1793 1665 1537 1025 1153 897 1281 769 1409 513 385 641 257 1 129
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 0 0 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 196608 0 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 720896 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 655360 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 589824 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 917504 0 524288 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 851968 0 458752 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 786432 0 393216 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 720896 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 655360 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 589824 0
+    }
+   }
+  }
+  version 2
+  argsize 25
+ }
+}

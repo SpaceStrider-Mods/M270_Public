@@ -1,0 +1,271 @@
+AnimSetInstanceSource "{64D0126663B84750}" {
+ Template "{F0D86C3A1FD85E28}Assets/Vehicles/Tracked/M270/workspaces/M270.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Death" {
+   Resource "{7A2523AE2C40D41E}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetIn" {
+   Resource "{F69B5B5B08A31E20}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_codriverR_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetOut" {
+   Resource "{5561F815A6AD45F4}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_codriverR_getOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Idle" {
+   Resource "{7A2523AE2C40D41E}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousDeath" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousIdle" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousIn" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousOut" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Death" {
+   Resource "{7A2523AE2C40D41E}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetIn" {
+   Resource "{479627020E2A6E24}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetOut" {
+   Resource "{46502C384A278D9B}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_getOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Idle" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousDeath" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIdle" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIn" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousOut" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Death" {
+   Resource "{7A2523AE2C40D41E}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Idle" {
+   Resource "{7A2523AE2C40D41E}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Death" {
+   Resource "{7A2523AE2C40D41E}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle" {
+   Resource "{7A2523AE2C40D41E}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousDeath" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIdle" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIn" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousOut" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Death" {
+   Resource "{7A2523AE2C40D41E}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Idle" {
+   Resource "{7A2523AE2C40D41E}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousDeath" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIdle" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIn" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousOut" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Death" {
+   Resource "{7A2523AE2C40D41E}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle" {
+   Resource "{7A2523AE2C40D41E}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousDeath" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIdle" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIn" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousOut" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Brake" {
+   Resource "{C06913400D784EEE}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_brake.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Clutch" {
+   Resource "{9CD67423374DD7A9}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_clutch.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringExtreme" {
+   Resource "{4E2A667A92E7C597}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_steering_poses_extreme.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringMain" {
+   Resource "{1CA94991D30EA7A1}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_steering_poses_main.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Throttle" {
+   Resource "{C21F29CC1092EE68}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_throttle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInR" {
+   Resource "{B102C8E8FBE6D595}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_codriverL_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutR" {
+   Resource "{98D50D8AFD7666B1}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_codriverL_getOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetIn" {
+   Resource "{B102C8E8FBE6D595}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_codriverL_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartIn" {
+   Resource "{F5394CFB33A9B057}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_turn_on_engine_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartLoop" {
+   Resource "{E86A100949318399}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_turn_on_engine_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.ShiftGear" {
+   Resource "{E35B22F5DA6FA2D1}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_shift_gear.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStop" {
+   Resource "{EFE9B1DEC34FE9B7}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_turn_off.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartOut" {
+   Resource "{5A47C6DAD3038144}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_turn_on_engine_out_on.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOn" {
+   Resource "{532AD791A3B823CF}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_light_switch_on.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOff" {
+   Resource "{3EC65184117B9594}Assets/Vehicles/Wheeled/Ural4320/anm/p_ural_driver_light_switch_off.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornIn" {
+   Resource "{0A29B7693F315C1B}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_horn_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornLoop" {
+   Resource "{0E63D0C212AB44CC}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_horn_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornOut" {
+   Resource "{BA600E3800549046}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_horn_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeoff" {
+   Resource "{C4A78BC250E402EB}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_handbrake_off.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeOn" {
+   Resource "{F60D6F4D93E4C379}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_handbrake_on.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOut" {
+   Resource "{98D50D8AFD7666B1}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_codriverL_getOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetIn" {
+   Resource "{B102C8E8FBE6D595}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_codriverL_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetOut" {
+   Resource "{98D50D8AFD7666B1}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_codriverL_getOut.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeIn" {
+   Resource "{4BDD3DCAECFFDF67}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_handbrake_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeLoop" {
+   Resource "{BC09A46ACEA8E75C}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_handbrake_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeOut" {
+   Resource "{D61F4E158D51FBFA}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_driver_handbrake_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.01_CloseDoor_In" {
+   Resource "{DD6651C8D7B0DCBE}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_codriverL_closeDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.01_CloseDoor_Out" {
+   Resource "{3166748372175221}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_codriverL_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.01_OpenDoor_In" {
+   Resource "{C7730D5562F871FE}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_codriverL_openDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.01_OpenDoor_Out" {
+   Resource "{55809E94E50A2356}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_codriverL_openDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_In" {
+   Resource "{E16193DFACB34F28}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_codriverR_closeDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_Out" {
+   Resource "{47B64037D2617F71}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_codriverR_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_OpenDoor_In" {
+   Resource "{709D95BFCCBB1E20}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_codriverR_openDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_OpenDoor_Out" {
+   Resource "{69875C839E09B0C0}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_codriverR_openDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_In" {
+   Resource "{48744C40E456A88B}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_driver_closeDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_Out" {
+   Resource "{B87FE621DE184C4F}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_driver_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_OpenDoor_In" {
+   Resource "{65597E9F02C4B298}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_driver_openDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_OpenDoor_Out" {
+   Resource "{C092831CD6EC5763}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_driver_openDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_Out_Back" {
+   Resource "{47B64037D2617F71}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_codriverR_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_Out_Back" {
+   Resource "{B87FE621DE184C4F}Assets/Vehicles/Wheeled/Ural4320/anm/Test/v_ural_driver_closeDoor_out.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{64D0126629EA8F61}" {
+ }
+}

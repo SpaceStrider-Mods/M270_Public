@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1638655E9F0A338E}Assets/Vehicles/Tracked/M270/Data/Textures/m2_bradley_tracks_flat_A.edds"
+ Configurations {
+  TGAResourceClass PC {
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass XBOX_SERIES : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass HEADLESS : PC {
+  }
+ }
+}

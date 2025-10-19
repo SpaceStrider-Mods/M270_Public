@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F0C3C68B9628CE89}Prefabs/Vehicles/Tracked/M1A1/VehParts/M270_Shadow.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

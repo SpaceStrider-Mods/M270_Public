@@ -1,0 +1,121 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 17412
+   name "Signal 17"
+   tl -538 -134
+   res "{06958500390DB44C}Assets/Vehicles/Tracked/M270/anim/proc/MLRS_Support.siga"
+   inputsport {
+    1 3
+   }
+   outputsport {
+    2 4 5 6
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+  }
+ }
+ funcs {
+  RotationMakeClass {
+   id 21510
+   name "RotationMake 21510"
+   tl -254 -237
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 17412
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    23558
+   }
+  }
+  RotationSetClass {
+   id 23558
+   name "RotationSet 23558"
+   tl -58 -311
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 21510
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 24582
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 24582
+   name "Bone 24582"
+   version 0
+   tl -250 -342
+   outs {
+    23558
+   }
+  }
+ }
+ model "{BCB9C9CE031794A5}Assets/Vehicles/Tracked/M270/m270_mrls_turret.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   257 1 129
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 0 0 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+  }
+  version 2
+  argsize 5
+ }
+}

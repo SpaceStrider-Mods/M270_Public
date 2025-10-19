@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EB484D57939A0A12}Assets/Vehicles/Tracked/M270/Data/m2_bradley_tracks_L.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

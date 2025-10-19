@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BE80DABF0477A3CF}Prefabs/Vehicles/Tracked/M270/Configs/Engine_8V92TA.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

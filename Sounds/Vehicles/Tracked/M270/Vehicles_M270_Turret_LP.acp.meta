@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8FFD06DD663FFA56}Sounds/Vehicles/Tracked/M270/Vehicles_M270_Turret_LP.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

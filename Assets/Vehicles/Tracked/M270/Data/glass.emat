@@ -1,0 +1,13 @@
+MatPBRBasicGlass {
+ Color 0.402 0.402 0.402 1
+ ZBias 2
+ Cull none
+ SurfaceProperties "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+ AlphaTest 0.001
+ AlphaMul 0.55
+ RoughnessScale 0.643
+ MetalnessScale 0.818
+ DielectricReflectance 0.05
+ BCRMap "{8B59275E8F260750}Assets/_SharedData/Glass/ST_Glass_Test_01_BCR.edds"
+ OpacityMap "{A730977A76334925}Assets/_SharedData/Glass/ST_Glass_Test_01_A.edds"
+}

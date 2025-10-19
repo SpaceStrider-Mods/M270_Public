@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5A32407F22EDEF30}Prefabs/Vehicles/Tracked/M270/Configs/M270FinalDrive.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,25 @@
+MetaFileClass {
+ Name "{9E1F386FC2366C46}Assets/Vehicles/Tracked/M270/Data/Textures/m2_bradley_tracks_flat_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+ }
+}
