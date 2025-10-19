@@ -1,0 +1,13 @@
+GenericEntity : "{E1817E624C7A5ABE}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_MLRS_Loaded_Cluster_M26.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{64CF7D4CF591E35F}" {
+     SourceMaterial "mlrs_rocket_pods"
+     AssignedMaterial "{E7554F36EB9331F9}Assets/Weapons/Magazines/MLRS/Data/mlrs_rocket_pods_Tan.emat"
+    }
+   }
+  }
+ }
+}

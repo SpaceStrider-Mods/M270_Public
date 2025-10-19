@@ -1,0 +1,54 @@
+SCR_MapEntity MapEntity_Everon1 : "{E1B88C66BF6CA1F9}Prefabs/World/Game/MapEntity_Everon.et" {
+ coords 6353.364 158.658 6461.057
+}
+SCR_BaseGameMode GameMode_Plain1 : "{1B76F75A3175E85C}Prefabs/MP/Modes/Plain/GameMode_Plain.et" {
+ components {
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_AutoSpawnLogic "{5D3472DD3C3465FA}" {
+   }
+  }
+ }
+ coords 6359.525 158.379 6461.156
+ m_aDisabledResourceTypes {
+  0
+ }
+}
+SCR_FactionManager FactionManager : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {
+ coords 6358.296 158.378 6461.127
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 6356.543 158.378 6457.997
+}
+ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+ coords 6357.131 158.379 6457.407
+}
+EjectableProjectile : "{0E0F688BAF50ECDA}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS_HE_M31.et" {
+ coords 10652.426 2.344 11810.802
+}
+SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 6357.034 158.379 6457.467
+}
+Projectile : "{517333DE6AADE624}Prefabs/Weapons/Ammo/Ammo_Missile_FIM92_Stinger.et" {
+ coords 10658.643 2.344 11810.581
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 6355.922 158.378 6457.657
+}
+EjectableProjectile : "{5DE21E515F315086}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS_Cluster_M26.et" {
+ coords 10653.742 2.344 11810.648
+}
+RegionalDestructionManager : "{6CE5A45F15803631}Prefabs/Systems/Destruction/RegionalDestructionManager.et" {
+ coords 6357.115 158.379 6458.17
+}
+SCR_LoadoutManager LoadoutManager : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
+ coords 6356.404 158.379 6457.686
+}
+SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+ coords 6356.752 158.379 6457.883
+}
+EjectableProjectile : "{CB3C0B576E04C9AC}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS2.et" {
+ coords 10656.846 2.343 11810.582
+}
+EjectableProjectile : "{ECD8628EBF7E5F6B}Prefabs/Weapons/Ammo/Ammo_Rocket_Hydra70.et" {
+ coords 10663.376 2.344 11803.457
+}

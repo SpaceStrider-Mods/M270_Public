@@ -1,0 +1,499 @@
+MetaFileClass {
+ Name "{CAEAB38C79594241}Assets/Vehicles/Tracked/M270/m270_mrls_base.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5DF449D1F25C1824}" {
+     SourceMaterial "m2_bradley_chassis"
+     AssignedMaterial "{0C64351E9D1D6DCA}Assets/Vehicles/Tracked/M270/Data/m2_bradley_chassis.emat"
+    }
+    MaterialAssignClass "{5DF449D1F25C183E}" {
+     SourceMaterial "m270_hull"
+     AssignedMaterial "{435CE508EB13EC0F}Assets/Vehicles/Tracked/M270/Data/m270_hull.emat"
+    }
+    MaterialAssignClass "{5DF449D1F25C183B}" {
+     SourceMaterial "glass"
+     AssignedMaterial "{8F5A6F801CF0E34D}Assets/Vehicles/Tracked/M270/Data/glass.emat"
+    }
+    MaterialAssignClass "{5E06779EBAA7F87F}" {
+     SourceMaterial "m2_bradley_tracks_L"
+     AssignedMaterial "{EB484D57939A0A12}Assets/Vehicles/Tracked/M270/Data/m2_bradley_tracks_L.emat"
+    }
+    MaterialAssignClass "{5E06779EBAA7F88B}" {
+     SourceMaterial "m2_bradley_tracks_R"
+     AssignedMaterial "{2438961A43390B52}Assets/Vehicles/Tracked/M270/Data/m2_bradley_tracks_R.emat"
+    }
+   }
+   MeshParams {
+    MeshParam hull {
+    }
+    MeshParam Tracks {
+    }
+    MeshParam arm_01 {
+    }
+    MeshParam arm_02 {
+    }
+    MeshParam arm_03 {
+    }
+    MeshParam arm_04 {
+    }
+    MeshParam arm_05 {
+    }
+    MeshParam arm_06 {
+    }
+    MeshParam arm_07 {
+    }
+    MeshParam arm_08 {
+    }
+    MeshParam arm_09 {
+    }
+    MeshParam arm_10 {
+    }
+    MeshParam arm_11 {
+    }
+    MeshParam arm_12 {
+    }
+    MeshParam crank_01 {
+    }
+    MeshParam crank_02 {
+    }
+    MeshParam hull_door_left {
+    }
+    MeshParam hull_door_right {
+    }
+    MeshParam hull_hatch {
+    }
+    MeshParam hull_shovel {
+    }
+    MeshParam hull_window_01 {
+    }
+    MeshParam hull_window_02 {
+    }
+    MeshParam hull_window_03 {
+    }
+    MeshParam hull_window_left {
+    }
+    MeshParam hull_window_right {
+    }
+    MeshParam shock_absorber_01 {
+    }
+    MeshParam shock_absorber_02 {
+    }
+    MeshParam shock_absorber_03 {
+    }
+    MeshParam shock_absorber_04 {
+    }
+    MeshParam shock_absorber_05 {
+    }
+    MeshParam shock_absorber_06 {
+    }
+    MeshParam shock_absorber_07 {
+    }
+    MeshParam shock_absorber_08 {
+    }
+    MeshParam tracks_flat_left {
+    }
+    MeshParam tracks_flat_right {
+    }
+    MeshParam wheel_drive_01 {
+    }
+    MeshParam wheel_drive_02 {
+    }
+    MeshParam wheel_idler_01 {
+    }
+    MeshParam wheel_idler_02 {
+    }
+    MeshParam wheel_road_01 {
+    }
+    MeshParam wheel_road_02 {
+    }
+    MeshParam wheel_road_03 {
+    }
+    MeshParam wheel_road_04 {
+    }
+    MeshParam wheel_road_05 {
+    }
+    MeshParam wheel_road_06 {
+    }
+    MeshParam wheel_road_07 {
+    }
+    MeshParam wheel_road_08 {
+    }
+    MeshParam wheel_road_09 {
+    }
+    MeshParam wheel_road_10 {
+    }
+    MeshParam wheel_road_11 {
+    }
+    MeshParam wheel_road_12 {
+    }
+    MeshParam wheel_roller_small_01 {
+    }
+    MeshParam wheel_roller_small_02 {
+    }
+    MeshParam wheel_roller_small_03 {
+    }
+    MeshParam wheel_roller_small_04 {
+    }
+    MeshParam wheel_roller_small_05 {
+    }
+    MeshParam wheel_roller_small_06 {
+    }
+    MeshParam wheel_roller_small_07 {
+    }
+    MeshParam wheel_roller_small_08 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_Hull_01 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Hull_02 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Hull_03 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Hull_04 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Hull_05 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Hull_06 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_03 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_04 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_05 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_06 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_07 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_08 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_09 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_10 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_11 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_arm_12 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Hull {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+      "{8F1BCCA995D7FA4B}Common/Materials/Game/rubber_tire.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_hull_window_01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_hull_window_02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_hull_window_03 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_tracks_flat_left {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_tracks_flat_right {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_drive_01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_drive_02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_idle_01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_idle_02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_03 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_04 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_05 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_06 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_07 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_08 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_09 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_10 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_11 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_road_12 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_windows {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{298A016BA1025E17}Common/Materials/Game/glass_armored.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5DF449D1F3C3BC1B}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5DF449D1F3C3BA3C}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5DF449D1F3C3BA8A}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5DF449D1F3C3BAD1}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5DF449D1F3C3BB13}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

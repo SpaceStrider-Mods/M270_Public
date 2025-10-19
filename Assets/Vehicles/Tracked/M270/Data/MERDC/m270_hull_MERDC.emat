@@ -1,0 +1,3 @@
+MatPBRBasic : "{435CE508EB13EC0F}Assets/Vehicles/Tracked/M270/Data/m270_hull.emat" {
+ BCRMap "{E553797F80DA7A27}Assets/Vehicles/Tracked/M270/Data/Textures/m270_hull_MERDC_BCR.edds"
+}

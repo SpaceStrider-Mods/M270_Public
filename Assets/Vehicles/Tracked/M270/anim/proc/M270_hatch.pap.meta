@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E603C57C75BE5503}Assets/Vehicles/Tracked/M270/anim/proc/M270_hatch.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

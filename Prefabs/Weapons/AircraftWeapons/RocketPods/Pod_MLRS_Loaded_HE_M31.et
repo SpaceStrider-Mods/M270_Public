@@ -1,0 +1,38 @@
+GenericEntity : "{0158DA77260E55A2}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_MLRS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  InventoryItemComponent "{61B28C67FEC7ABBA}" {
+   Attributes SCR_ItemAttributeCollection "{61B2A217F4C03790}" {
+    ItemDisplayName UIInfo "{64CF6E46B239F20A}" {
+     Name "#SPC-Weapon_MLRS_M31_Name"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SCR_RocketEjectorMuzzleComponent "{61A6977B6DC1FE72}" {
+     ProjectilePositions {
+      InventoryStorageSlot rocket01 {
+       Prefab "{0E0F688BAF50ECDA}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS_HE_M31.et"
+      }
+      InventoryStorageSlot rocket02 {
+       Prefab "{0E0F688BAF50ECDA}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS_HE_M31.et"
+      }
+      InventoryStorageSlot rocket03 {
+       Prefab "{0E0F688BAF50ECDA}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS_HE_M31.et"
+      }
+      InventoryStorageSlot rocket04 {
+       Prefab "{0E0F688BAF50ECDA}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS_HE_M31.et"
+      }
+      InventoryStorageSlot rocket05 {
+       Prefab "{0E0F688BAF50ECDA}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS_HE_M31.et"
+      }
+      InventoryStorageSlot rocket06 {
+       Prefab "{0E0F688BAF50ECDA}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS_HE_M31.et"
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,23 @@
+GameProject {
+ ID "M270MLRS"
+ GUID "5DF42518F3C3210D"
+ TITLE "M270 MLRS"
+ Dependencies {
+  "58D0FB3206B6F859" "5E389BB9F58B79A6"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+   PlatformHardware PS5
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

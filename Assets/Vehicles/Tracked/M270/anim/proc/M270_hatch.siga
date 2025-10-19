@@ -1,0 +1,453 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPItemInputClass {
+   id 1
+   name "WindowHatch1"
+   tl -614.5 113.75
+   ctl 0 -21
+   children {
+    19
+   }
+  }
+  IOPInputValueClass {
+   id 10
+   name "Value 40"
+   tl -400.861 -6.389
+   children {
+    18
+   }
+   value -190
+  }
+  IOPItemInputClass {
+   id 20
+   name "WindowHatch2"
+   tl -618.333 268.444
+   ctl 0 -21
+   children {
+    21
+   }
+  }
+  IOPInputValueClass {
+   id 22
+   name "Val 40"
+   tl -409.556 186.556
+   children {
+    23
+   }
+   value 190
+  }
+  IOPInputValueClass {
+   id 27
+   name "Value 27"
+   tl -415.639 363.232
+   children {
+    26
+   }
+   value 238
+  }
+  IOPInputValueClass {
+   id 30
+   name "Value 30"
+   tl -418.139 546.982
+   children {
+    29
+   }
+   value -190
+  }
+  IOPInputValueClass {
+   id 33
+   name "Value 33"
+   tl -441.889 728.232
+   children {
+    32
+   }
+   value -190
+  }
+  IOPItemInputClass {
+   id 34
+   name "Window3"
+   tl -637.5 812.5
+   children {
+    31
+   }
+  }
+  IOPItemInputClass {
+   id 35
+   name "Window2"
+   tl -645 631.25
+   children {
+    28
+   }
+  }
+  IOPItemInputClass {
+   id 36
+   name "Window1"
+   tl -623.75 453.75
+   children {
+    25
+   }
+  }
+ }
+ Ops {
+  IOPItemOpMulClass {
+   id 18
+   name "Mul"
+   tl -178.333 77.639
+   children {
+    3
+   }
+   inputs {
+    ConnectionClass connection {
+     id 19
+     port 0
+    }
+    ConnectionClass connection {
+     id 10
+     port 0
+    }
+   }
+  }
+  IOPItemOpSmootherClass {
+   id 19
+   name "Smoother 19"
+   tl -434 89
+   ctl 0 0.05
+   children {
+    18
+   }
+   inputs {
+    ConnectionClass connection {
+     id 1
+     port 0
+    }
+   }
+   "Fade In Time" 750
+   "Fade Out Time" 750
+   "Fade In Type" "S-curve"
+   "Fade Out Type" "S-curve"
+  }
+  IOPItemOpSmootherClass {
+   id 21
+   name "Smoother 19"
+   tl -423.667 272.444
+   ctl 0 0.05
+   children {
+    23
+   }
+   inputs {
+    ConnectionClass connection {
+     id 20
+     port 0
+    }
+   }
+   "Fade In Time" 750
+   "Fade Out Time" 750
+   "Fade In Type" "S-curve"
+   "Fade Out Type" "S-curve"
+  }
+  IOPItemOpMulClass {
+   id 23
+   name "Mul"
+   tl -179.778 267.222
+   children {
+    24
+   }
+   inputs {
+    ConnectionClass connection {
+     id 21
+     port 0
+    }
+    ConnectionClass connection {
+     id 22
+     port 0
+    }
+   }
+  }
+  IOPItemOpSmootherClass {
+   id 25
+   name "Smoother 19"
+   tl -429.75 449.12
+   ctl 0 0.05
+   children {
+    26
+   }
+   inputs {
+    ConnectionClass connection {
+     id 36
+     port 0
+    }
+   }
+   "Fade In Time" 750
+   "Fade Out Time" 750
+   "Fade In Type" "S-curve"
+   "Fade Out Type" "S-curve"
+  }
+  IOPItemOpMulClass {
+   id 26
+   name "Mul"
+   tl -185.861 443.898
+   children {
+    37
+   }
+   inputs {
+    ConnectionClass connection {
+     id 25
+     port 0
+    }
+    ConnectionClass connection {
+     id 27
+     port 0
+    }
+   }
+  }
+  IOPItemOpSmootherClass {
+   id 28
+   name "Smoother 19"
+   tl -432.25 632.87
+   ctl 0 0.05
+   children {
+    29
+   }
+   inputs {
+    ConnectionClass connection {
+     id 35
+     port 0
+    }
+   }
+   "Fade In Time" 750
+   "Fade Out Time" 750
+   "Fade In Type" "S-curve"
+   "Fade Out Type" "S-curve"
+  }
+  IOPItemOpMulClass {
+   id 29
+   name "Mul"
+   tl -188.361 627.648
+   children {
+    38
+   }
+   inputs {
+    ConnectionClass connection {
+     id 28
+     port 0
+    }
+    ConnectionClass connection {
+     id 30
+     port 0
+    }
+   }
+  }
+  IOPItemOpSmootherClass {
+   id 31
+   name "Smoother 19"
+   tl -456 814.12
+   ctl 0 0.05
+   children {
+    32
+   }
+   inputs {
+    ConnectionClass connection {
+     id 34
+     port 0
+    }
+   }
+   "Fade In Time" 750
+   "Fade Out Time" 750
+   "Fade In Type" "S-curve"
+   "Fade Out Type" "S-curve"
+  }
+  IOPItemOpMulClass {
+   id 32
+   name "Mul"
+   tl -212.111 808.898
+   children {
+    39
+   }
+   inputs {
+    ConnectionClass connection {
+     id 31
+     port 0
+    }
+    ConnectionClass connection {
+     id 33
+     port 0
+    }
+   }
+  }
+ }
+ Outputs {
+  IOPItemOutputClass {
+   id 3
+   name "Output Hatch 1"
+   tl 45.75 129.5
+   ctl 32870688 0
+   input 18
+  }
+  IOPItemOutputClass {
+   id 24
+   name "Output Hatch 2"
+   tl 33.556 269.222
+   ctl 32870688 0
+   input 23
+  }
+  IOPItemOutputClass {
+   id 37
+   name "Output Window 1"
+   tl 25 426.25
+   input 26
+  }
+  IOPItemOutputClass {
+   id 38
+   name "Output Window 2"
+   tl 33.75 615
+   input 29
+  }
+  IOPItemOutputClass {
+   id 39
+   name "Output Window 3"
+   tl 8.75 806.25
+   input 32
+  }
+ }
+ compiled IOPCompiledClass {
+  visited {
+   1157 519 1029 775 901 1031 773 1163 518 645 907 390 517 651 262 389 261 263 395 134 133 5 135 11 6
+  }
+  ins {
+   IOPCompiledIn {
+    data {
+     1 65539
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 3
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 131075
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 196611
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 327683
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 458755
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 589827
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 524291
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 393219
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 262147
+    }
+   }
+  }
+  ops {
+   IOPCompiledOp {
+    data {
+     1 2 4 65537 0 65536 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 3 2 0 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 196611 2 131072 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 65538 4 131073 0 196608 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 327683 2 589824 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 131074 4 262145 0 262144 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 458755 2 524288 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 196610 4 393217 0 327680 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 589827 2 458752 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 262146 4 524289 0 393216 0
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+  }
+  processed 25
+  version 2
+  ops_reeval_list {
+   1 2 4 6 8
+  }
+ }
+}

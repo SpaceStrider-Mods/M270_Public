@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0E0CA551B3FCC030}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_MLRS_Shot.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

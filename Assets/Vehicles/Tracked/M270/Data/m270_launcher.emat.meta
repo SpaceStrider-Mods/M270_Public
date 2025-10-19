@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{58840BDDE1D8B0BB}Assets/Vehicles/Tracked/M270/Data/m270_launcher.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

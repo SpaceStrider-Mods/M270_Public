@@ -1,0 +1,18 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{5CEF3911C56CE660}Assets/Weapons/Magazines/MLRS/m270_mlrs_M26_Magazine.xob"
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Enabled 0
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_HitZone Magazine {
+     HZDefault 1
+    }
+   }
+  }
+ }
+}

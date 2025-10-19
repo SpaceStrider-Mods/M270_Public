@@ -1,0 +1,11 @@
+MatPBRBasic {
+ RoughnessScale 1.3
+ BCRMap "{253C7A48DBF77241}Assets/Vehicles/Tracked/M270/Data/Textures/m270_mlrs_launcher_BCR.edds"
+ NMOMap "{1DE4C1DA028020DF}Assets/Vehicles/Tracked/M270/Data/Textures/m270_mlrs_launcher_NMO.edds"
+ DetailNormalPower 0.8
+ DetailNormalMap "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ DetailNormalMapUVTransform MatUVTransform "{632057DF627F0927}" {
+  TilingU 2
+  TilingV 2
+ }
+}

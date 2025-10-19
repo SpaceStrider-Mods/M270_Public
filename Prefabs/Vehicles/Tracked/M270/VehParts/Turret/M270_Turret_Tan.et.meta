@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5B1E47C5B1808855}Prefabs/Vehicles/Tracked/M270/VehParts/Turret/M270_Turret_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

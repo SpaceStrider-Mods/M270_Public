@@ -1,0 +1,11 @@
+name: Mirror to Public Repo
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  mirror:
+    uses: SpaceStrider-Mods/Org-Tools/.github/workflows/sync_public.yml@main
+    secrets: inherit

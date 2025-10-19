@@ -1,0 +1,290 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 11268
+   name "Signal 11"
+   tl -282.222 -66.667
+   res "{BBD70AA24AFF5BE2}Assets/Vehicles/Tracked/M270/anim/proc/Tracks_MLRS.siga"
+   inputsport {
+    1 3 5
+   }
+   outputsport {
+    2 4 6
+   }
+   inputvalues {
+    0 0 0
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    1 1 1
+   }
+  }
+ }
+ funcs {
+  BoneClass {
+   id 2054
+   name "Bone 2054"
+   version 0
+   tl 3.357 -281
+   outs {
+    10246
+   }
+   bone "v_wheel_l02"
+  }
+  BoneClass {
+   id 3078
+   name "Bone 3078"
+   version 0
+   tl 1.75 -39.857
+   outs {
+    8198
+   }
+   bone "v_wheel_r02"
+  }
+  BoneClass {
+   id 4102
+   name "Bone 4102"
+   version 0
+   tl 0.429 218.286
+   outs {
+    6150
+   }
+   bone "v_suspension_l02"
+  }
+  TranslateSetClass {
+   id 6150
+   name "TranslateSet 6150"
+   tl 225 241.25
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 12294
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 4102
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass {
+   id 8198
+   name "RotationSet 8198"
+   tl 218.75 1.25
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 3078
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 13318
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass {
+   id 10246
+   name "RotationSet 10246"
+   tl 218.75 -241.25
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 14342
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 2054
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  TranslateMakeClass {
+   id 12294
+   name "TranslateMake 12294"
+   tl 4 310
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 11268
+         port 6
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    6150
+   }
+  }
+  RotationMakeClass {
+   id 13318
+   name "RotationMake 13318"
+   tl -4 69
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 11268
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    8198
+   }
+  }
+  RotationMakeClass {
+   id 14342
+   name "RotationMake 14342"
+   tl 6 -188
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 11268
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    10246
+   }
+  }
+ }
+ model "{3E5C55F26AC62973}Assets/Vehicles/Tracked/M1A1/m1a1_abrams.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   1025 897 769 257 385 129 513 1 641
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 196608 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 393216 0 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 65536 0 458752 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 524288 0 0 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 196608 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+  }
+  version 2
+  argsize 15
+ }
+}

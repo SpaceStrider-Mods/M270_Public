@@ -1,0 +1,70 @@
+EjectableProjectile {
+ coords 10661.041 2.344 11804.056
+}
+SCR_VehicleDebug {
+ coords 10669.792 2.344 11785.181
+ m_VehicleName "M270_MERDC1"
+ m_CompartmentType TURRET
+}
+GenericEntity : "{0158DA77260E55A2}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_MLRS.et" {
+ coords 10663.241 3.711 11802.512
+}
+GenericEntity : "{01A11A10B9BE03EE}Prefabs/Weapons/Warheads/Warhead_M26_Cluster.et" {
+ coords 6330.803 5.332 9642.874
+}
+GenericEntity : "{0D25E6415C3202B2}Prefabs/Weapons/Warheads/Warhead_M31.et" {
+ coords 10659.945 2.344 11802.115
+}
+EjectableProjectile : "{0E0F688BAF50ECDA}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS_HE_M31.et" {
+ coords 10658.822 2.344 11804.699
+}
+$grp Turret : "{2AC9C45DCCF3F08B}Prefabs/Vehicles/Tracked/M270/VehParts/Turret/M270_Turret.et" {
+ {
+  coords 10654.447 2.344 11803.774
+ }
+ {
+  coords 10657.554 2.344 11799.496
+ }
+}
+Projectile : "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et" {
+ coords 10659.824 2.344 11803.561
+}
+GenericEntity : "{5185B426EA9B50A8}Prefabs/Weapons/Warheads/Warhead_Grenade_HE_M26.et" {
+ coords 6906.68 70.735 8606.095
+}
+EjectableProjectile : "{5DE21E515F315086}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS_Cluster_M26.et" {
+ coords 10660.07 4.742 11807.335
+ angleX 25.539
+}
+GenericEntity : "{6B8EE808E69A69E0}Prefabs/Weapons/Warheads/Warhead_Shell_HE_M821.et" {
+ coords 10659.478 2.344 11801.32
+}
+Tank M270_MERDC1 : "{6C330BECAAF4FD38}Prefabs/Vehicles/Tracked/M270/M270_MERDC.et" {
+ coords 10663.229 2.633 11789.737
+}
+Projectile : "{9B1A9FB043F21B78}Prefabs/Weapons/Ammo/MLRS/Ammo_Grenade_HE_M26_Cluster.et" {
+ coords 6907.264 70.704 8606.563
+}
+GenericEntity : "{BD048236F83D85DA}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_base.et" {
+ coords 10666.38 3.125 11801.79
+}
+EjectableProjectile : "{C9A1612DC5340613}Prefabs/Weapons/Ammo/Ammo_Rocket_S5.et" {
+ coords 6909.519 70.531 8609.135
+}
+$grp SCR_AIGroup : "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et" {
+ {
+  coords 6341.932 5.499 9650.975
+ }
+ {
+  coords 6331.261 5.312 9655.312
+ }
+ {
+  coords 6351.56 5.698 9644.887
+ }
+}
+Projectile : "{EEF8495A9A6787A6}Prefabs/Weapons/Core/Ammo_MortarShell_Base.et" {
+ coords 10658.749 2.343 11804.736
+}
+GenericEntity : "{F1929AE7DC824D81}Prefabs/Weapons/Warheads/Warhead_ExplosiveCharge_TNT400g.et" {
+ coords 6909.057 70.624 8607.679
+}

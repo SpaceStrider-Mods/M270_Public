@@ -1,0 +1,538 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 7181
+   name "Signal 7"
+   tl -331.561 -853.813
+   res "{312B78BAACBE73BA}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Turret.sig"
+   inputsport {
+    22 25 37
+   }
+   outputsport {
+    27 46 44 118 119 120
+   }
+   inputvalues {
+    1 1 30
+   }
+   inputvaluesmin {
+    0 0 -100
+   }
+   inputvaluesmax {
+    1 1 100
+   }
+  }
+  SignalClass {
+   id 47117
+   name "Signal Reverb"
+   tl 636.429 -1264.286
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+   inputsport {
+    1 35 40
+   }
+   outputsport {
+    34 39 105
+   }
+   inputvalues {
+    40 1 1
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    100 1 1
+   }
+  }
+  SignalClass {
+   id 48141
+   name "Signal Occlusion"
+   tl 157.5 -1213.75
+   res "{486BCE6E22132793}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSourceNoCabinAttenuation.sig"
+   inputsport {
+    30 32 45 55 57
+   }
+   outputsport {
+    2 47 67
+   }
+   inputvalues {
+    0 1 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 1
+   }
+  }
+ }
+ sounds {
+  SoundClass {
+   id 13321
+   name "SOUND_TURRET_ELEVATION_STOP_UP"
+   version 2
+   tl 361.965 -768.584
+   conns {
+    ConnectionsClass connections {
+     id 14
+     links {
+      ConnectionClass connection {
+       id 25618
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 7181
+         port 44
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    1
+   }
+   outState 29707
+   outStatePort 17415
+   transformation Bone
+   boneName "v_gun_01"
+   type "One shot"
+   threshold 29
+   reset 29
+  }
+  SoundClass {
+   id 30729
+   name "SOUND_TURRET_ELEVATION_STOP_DOWN"
+   version 2
+   tl 361.965 -583.453
+   conns {
+    ConnectionsClass connections {
+     id 14
+     links {
+      ConnectionClass connection {
+       id 25618
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 7181
+         port 46
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    1
+   }
+   outState 29707
+   outStatePort 17415
+   transformation Bone
+   boneName "v_gun_01"
+   type "One shot"
+   threshold 4
+   reset 4
+  }
+  SoundClass {
+   id 41993
+   name "SOUND_TURRET_ROTATION_STOP"
+   version 2
+   tl 365.844 -946.494
+   conns {
+    ConnectionsClass connections {
+     id 14
+     links {
+      ConnectionClass connection {
+       id 24594
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 7181
+         port 120
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    1
+   }
+   priority 60
+   outState 29707
+   outStatePort 17415
+   transformation Bone
+   boneName "v_turret"
+   type "One shot"
+   threshold -1
+   reset -1
+  }
+ }
+ mixers {
+  MixerClass {
+   id 29707
+   name "OutputState"
+   version 2
+   tl 632.795 -1020.591
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   iops {
+    IOPConnectionClass iopConnection {
+     port 17415
+     conn {
+      ConnectionsClass connections {
+       id 5
+       links {
+        ConnectionClass connection {
+         id 41993
+         port 65
+        }
+        ConnectionClass connection {
+         id 13321
+         port 65
+        }
+        ConnectionClass connection {
+         id 30729
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 152583
+     conn {
+      ConnectionsClass connections {
+       id 25
+       links {
+        ConnectionClass connection {
+         id 43037
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    131328
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior"
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 24594
+   name "Shader 24"
+   version 2
+   tl 158.94 -945.238
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 20484
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 24
+       links {
+        ConnectionClass connection {
+         id 39964
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 15
+       links {
+        ConnectionClass connection {
+         id 27667
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 17
+       links {
+        ConnectionClass connection {
+         id 40981
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    23
+   }
+  }
+  ShaderClass {
+   id 25618
+   name "Shader 25"
+   version 2
+   tl 158.94 -660.239
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 23556
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 24
+       links {
+        ConnectionClass connection {
+         id 39964
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 15
+       links {
+        ConnectionClass connection {
+         id 27667
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 17
+       links {
+        ConnectionClass connection {
+         id 40981
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    23
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass : "{F1CC7B4D741028C3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_15-10.conf" {
+   id 27667
+   tl 160.454 -1353.49
+   parent "{F1CC7B4D741028C3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_15-10.conf"
+  }
+ }
+ frequency {
+  FrequencyClass : "{CA912C59A9267045}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_Base.conf" {
+   id 40981
+   tl 159.167 -1284.346
+   iops {
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 48141
+         port 67
+        }
+       }
+      }
+     }
+    }
+   }
+   parent "{CA912C59A9267045}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_Base.conf"
+   pi {
+    16
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 20484
+   name "Rotation Stop"
+   tl -47.476 -944.992
+   Volume -19
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{2541BF4797A084A8}Sounds/Vehicles/Wheeled/BTR70/Samples/BTR_Turret_Rotation_Stop_1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{BC5F06DE8A47B538}Sounds/Vehicles/Wheeled/BTR70/Samples/BTR_Turret_Rotation_Stop_2.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{CB556E567EE55A48}Sounds/Vehicles/Wheeled/BTR70/Samples/BTR_Turret_Rotation_Stop_3.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{CC9294071863E08B}Sounds/Vehicles/Wheeled/BTR70/Samples/BTR_Turret_Rotation_Stop_4.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 23556
+   name "Elevation Stop"
+   tl -35.655 -663.298
+   Volume -21
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{086E0A16FBE068EB}Sounds/Vehicles/Wheeled/BTR70/Samples/BTR_Turret_Elevation_Stop_1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{9170B38FE607597B}Sounds/Vehicles/Wheeled/BTR70/Samples/BTR_Turret_Elevation_Stop_2.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{E67ADB0712A5B60B}Sounds/Vehicles/Wheeled/BTR70/Samples/BTR_Turret_Elevation_Stop_3.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 39964
+   name "Spatiality"
+   tl 161.801 -1423.865
+   SpatialFactorSource Curve
+   SFCurve {
+    CurvePoint "1" {
+    }
+    CurvePoint "2" {
+     X 3
+     Y 1
+    }
+   }
+  }
+ }
+ auxOuts {
+  AuxOutClass {
+   id 43037
+   name "AuxOut Reverb INT"
+   version 2
+   tl 633.827 -1144.642
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 5
+       links {
+        ConnectionClass connection {
+         id 41993
+         port 5
+        }
+        ConnectionClass connection {
+         id 13321
+         port 5
+        }
+        ConnectionClass connection {
+         id 30729
+         port 5
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 47117
+         port 34
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 47117
+         port 39
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    7
+   }
+   OSPort 152583
+  }
+ }
+ version 1
+ sourcesLimit 1
+ listenerWindowModel "{BCB9C9CE031794A5}Assets/Vehicles/Tracked/M270/m270_mrls_turret.xob"
+}

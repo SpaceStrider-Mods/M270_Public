@@ -1,0 +1,26 @@
+Tank : "{D10BEDD1B78E43B5}Prefabs/Vehicles/Tracked/M270/M270_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{63204A8304CC760B}" {
+     SourceMaterial "m270_hull"
+     AssignedMaterial "{12281EA0C10587B0}Assets/Vehicles/Tracked/M270/Data/MERDC/m270_hull_MERDC.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "M270 MLRS Tan"
+    m_Image "{C9CFB00FD236ACB0}UI/Textures/EditorPreviews/Vehicles/Tracked/M270/M270_MERDC.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{A3CD36CCA98B4A21}Prefabs/Vehicles/Tracked/M270/VehParts/Turret/M270_Turret_MERDC.et"
+    }
+   }
+  }
+ }
+}

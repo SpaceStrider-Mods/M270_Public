@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7BA0FC6D0D8B0494}Configs/Weapons/Ammo/Ammo_227_MLRS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

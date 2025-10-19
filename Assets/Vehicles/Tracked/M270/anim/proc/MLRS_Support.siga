@@ -1,0 +1,211 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPItemInputClass {
+   id 1
+   name "supportL"
+   tl -256.867 5.29
+   children {
+    9 10
+   }
+  }
+  IOPItemInputClass {
+   id 3
+   name "supportR"
+   tl -227 224
+   children {
+    11 12
+   }
+  }
+  IOPInputValueClass {
+   id 7
+   name "Value 7"
+   tl -490.21 -7.372
+   children {
+    10 12
+   }
+   value 4
+  }
+  IOPInputValueClass {
+   id 8
+   name "Value 8"
+   tl -457.585 -145.475
+   children {
+    9 11
+   }
+   value 90
+  }
+ }
+ Ops {
+  IOPItemOpMulClass {
+   id 9
+   name "Mul 9"
+   tl -54.222 -88.607
+   children {
+    2
+   }
+   inputs {
+    ConnectionClass connection {
+     id 8
+     port 0
+    }
+    ConnectionClass connection {
+     id 1
+     port 0
+    }
+   }
+  }
+  IOPItemOpMulClass {
+   id 10
+   name "Mul 10"
+   tl -33.062 11.903
+   children {
+    4
+   }
+   inputs {
+    ConnectionClass connection {
+     id 7
+     port 0
+    }
+    ConnectionClass connection {
+     id 1
+     port 0
+    }
+   }
+  }
+  IOPItemOpMulClass {
+   id 11
+   name "Mul 11"
+   tl -10.58 126.96
+   children {
+    5
+   }
+   inputs {
+    ConnectionClass connection {
+     id 8
+     port 0
+    }
+    ConnectionClass connection {
+     id 3
+     port 0
+    }
+   }
+  }
+  IOPItemOpMulClass {
+   id 12
+   name "Mul 12"
+   tl -17.192 252.598
+   children {
+    6
+   }
+   inputs {
+    ConnectionClass connection {
+     id 7
+     port 0
+    }
+    ConnectionClass connection {
+     id 3
+     port 0
+    }
+   }
+  }
+ }
+ Outputs {
+  IOPItemOutputClass {
+   id 2
+   name "PodHingeL"
+   tl 292 -66
+   input 9
+  }
+  IOPItemOutputClass {
+   id 4
+   name "supportLOut"
+   tl 294 15
+   input 10
+  }
+  IOPItemOutputClass {
+   id 5
+   name "HingeR"
+   tl 294 119
+   input 11
+  }
+  IOPItemOutputClass {
+   id 6
+   name "supportROut"
+   tl 280 239
+   input 12
+  }
+ }
+ compiled IOPCompiledClass {
+  visited {
+   389 261 133 395 390 267 262 5 139 134 11 6
+  }
+  ins {
+   IOPCompiledIn {
+    data {
+     2 3 65539
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 131075 196611
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 65539 196611
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 3 131075
+    }
+   }
+  }
+  ops {
+   IOPCompiledOp {
+    data {
+     1 2 4 196608 0 0 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 65538 4 131072 0 0 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 131074 4 196608 0 65536 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 196610 4 131072 0 65536 0
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+  }
+  processed 12
+  version 2
+ }
+}

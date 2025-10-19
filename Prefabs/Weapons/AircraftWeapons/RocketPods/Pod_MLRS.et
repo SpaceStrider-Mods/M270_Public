@@ -1,0 +1,255 @@
+GenericEntity : "{1B915F6E9787F965}Prefabs/Weapons/Core/RocketPod_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{0E0CA551B3FCC030}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_MLRS_Shot.acp" "{EEAE2427DD990D12}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_Generic_Handling.acp"
+   }
+  }
+  InventoryItemComponent "{61B28C67FEC7ABBA}" {
+   Attributes SCR_ItemAttributeCollection "{61B2A217F4C03790}" {
+    ItemDisplayName UIInfo "{64CF6E46B239F20A}" {
+     Name "#SPC-Weapon_MLRS_Name"
+     Description "#SPC-Weapon_MLRS_Description"
+    }
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{5CEF3911C56CE660}Assets/Weapons/Magazines/MLRS/m270_mlrs_M26_Magazine.xob"
+  }
+  RigidBody "{64CF6E46B239F21B}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_WeaponBlastComponent "{64CF7D4CDF08787D}" {
+   m_aBlastEffects {
+    SCR_WeaponBlastEffect "{64CF7D4CC400F926}" {
+     m_eDamageType COLLISION
+     m_DamageEffect SCR_ExplosionDamageEffect "{64CF7D431DC828A3}" {
+     }
+     m_fDamageValue 200
+     m_aDistanceDamageFalloff {
+      0 1 0.151 0.942 0.394 0.32 1 0
+     }
+     m_aAngleDamageFalloff {
+      0 0 0.436 0.391 0.699 0.958 1 1
+     }
+    }
+    SCR_WeaponBlastEffect "{64CF7D432868189D}" {
+     m_eDamageType EXPLOSIVE
+     m_DamageEffect SCR_BackBlastDamageEffect "{6262C5CDA676872D}" {
+      m_fResilienceDamageValueMultiplier 5
+     }
+     m_fDamageValue 9
+     m_aDistanceDamageFalloff {
+      0 1 0.305 0.958 0.569 0.255 1 0
+     }
+     m_aAngleDamageFalloff {
+      0 0 0.335 0.673 0.526 0.926 1 1
+     }
+    }
+   }
+   m_BlastOrigin PointInfo "{64CF7D4338CB802E}" {
+    Offset 0 0 -2
+    Angles 0 180 0
+   }
+   m_fBlastLength 5
+  }
+  SPC_ArtilleryWeaponMuzzlePoints "{650B3201B3552362}" {
+   m_aMuzzleEndPositions {
+    PointInfo "{650B3201BD97E83D}" {
+     PivotID "barrel_muzzle_01"
+    }
+    PointInfo "{650B3201BDC447F5}" {
+     PivotID "barrel_chamber_02"
+    }
+    PointInfo "{650B3201BD11FD35}" {
+     PivotID "barrel_chamber_03"
+    }
+    PointInfo "{650B3201BD0D9BE1}" {
+     PivotID "barrel_chamber_04"
+    }
+    PointInfo "{650B3201BD2D7274}" {
+     PivotID "barrel_muzzle_05"
+    }
+    PointInfo "{650B3201BC98AAA0}" {
+     PivotID "barrel_muzzle_06"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SCR_RocketEjectorMuzzleComponent "{61A6977B6DC1FE72}" {
+     components {
+      MultiBarrelMuzzleEffectComponent "{61A6977B64FD4BE6}" {
+       ParticleEffect "{BDBED18B1C4B8ACB}Particles/Weapon/Muzzle_Rocket_Pod_MLRS_Back.ptc"
+       EffectPositions {
+        EntitySlotInfo Rocket01 {
+         PivotID "barrel_chamber_01"
+         Offset 0 0 -2
+         Angles 0 180 0
+        }
+        EntitySlotInfo Rocket02 {
+         PivotID "barrel_chamber_02"
+         Offset 0 0 -2
+         Angles 0 180 0
+        }
+        EntitySlotInfo Rocket03 {
+         PivotID "barrel_chamber_03"
+         Offset 0 0 -2
+         Angles 0 180 0
+        }
+        EntitySlotInfo Rocket04 {
+         PivotID "barrel_chamber_04"
+         Offset 0 0 -2
+         Angles 0 180 0
+        }
+        EntitySlotInfo Rocket05 {
+         PivotID "barrel_chamber_02"
+         Offset 0 0 -2
+         Angles 0 180 0
+        }
+        EntitySlotInfo Rocket06 {
+         PivotID "barrel_chamber_06"
+         Offset 0 0 -2
+         Angles 0 180 0
+        }
+       }
+      }
+      MultiBarrelMuzzleEffectComponent "{64D357FA3F342A05}" {
+       ParticleEffect "{D9FBF6FF478AF988}Particles/Weapon/Muzzle_Rocket_Pod_MLRS_Front.ptc"
+       EffectPositions {
+        EntitySlotInfo Rocket01 {
+         PivotID "barrel_muzzle_01"
+        }
+        EntitySlotInfo Rocket02 {
+         PivotID "barrel_muzzle_02"
+        }
+        EntitySlotInfo Rocket03 {
+         PivotID "barrel_muzzle_03"
+        }
+        EntitySlotInfo Rocket04 {
+         PivotID "barrel_muzzle_04"
+        }
+        EntitySlotInfo Rocket05 {
+         PivotID "barrel_muzzle_05"
+        }
+        EntitySlotInfo Rocket06 {
+         PivotID "barrel_muzzle_06"
+        }
+       }
+       ResetOnFire 0
+       WrapBarrelIndex 0
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{64CF6E46B239F5EC}" {
+       PivotID "barrel_muzzle_01"
+      }
+      PointInfo "{64CF6E46B239F5EF}" {
+       PivotID "barrel_muzzle_02"
+      }
+      PointInfo "{64CF6E46B239F5EE}" {
+       PivotID "barrel_muzzle_03"
+      }
+      PointInfo "{64CF6E46B239F5E0}" {
+       PivotID "barrel_muzzle_04"
+      }
+      PointInfo "{64CF6E46B23A02E4}" {
+       PivotID "barrel_muzzle_05"
+      }
+      PointInfo "{64CF6E46B23A02E1}" {
+       PivotID "barrel_muzzle_06"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{64CF6E46B23A6A52}" {
+       PivotID "barrel_chamber_01"
+      }
+      PointInfo "{64CF6E46B23A6A4D}" {
+       PivotID "barrel_chamber_02"
+      }
+      PointInfo "{64CF6E46B23A6A4C}" {
+       PivotID "barrel_chamber_03"
+      }
+      PointInfo "{64CF6E46B23A6A7C}" {
+       PivotID "barrel_chamber_04"
+      }
+      PointInfo "{64CF6E46B23A6A7F}" {
+       PivotID "barrel_chamber_05"
+      }
+      PointInfo "{64CF6E46B23A6A7E}" {
+       PivotID "barrel_chamber_06"
+      }
+     }
+     ProjectilePositions {
+      InventoryStorageSlot rocket01 {
+       PivotID "barrel_chamber_01"
+       DisablePhysicsInteraction 1
+      }
+      InventoryStorageSlot rocket02 {
+       PivotID "barrel_chamber_02"
+       DisablePhysicsInteraction 1
+      }
+      InventoryStorageSlot rocket03 {
+       PivotID "barrel_chamber_03"
+       DisablePhysicsInteraction 1
+      }
+      InventoryStorageSlot rocket04 {
+       PivotID "barrel_chamber_04"
+       DisablePhysicsInteraction 1
+      }
+      InventoryStorageSlot rocket05 {
+       PivotID "barrel_chamber_05"
+       DisablePhysicsInteraction 1
+      }
+      InventoryStorageSlot rocket06 {
+       PivotID "barrel_chamber_06"
+       DisablePhysicsInteraction 1
+      }
+     }
+     EjectorInterface EjectorInterfaceMLRS "{64CF6E46B23A6A71}" {
+     }
+     m_sDefaultAmmoPrefab "{CB3C0B576E04C9AC}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS2.et"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{565ECA2FE3F0F3FB}" {
+     m_sMagazineLayout "{8A98061335A620E1}UI/layouts/HUD/WeaponInfo/SingleMagazineWidget_RocketPod.layout"
+     m_sOutline "magazine-rockets-outline"
+     m_sBackground "magazine-rockets-background"
+     m_sProgress "magazine-rockets-fill"
+     m_sProgressAlphaMask "magazine-rockets-alpha"
+     m_sEmptyMagazine "magazine-rockets-disabled"
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 0 2
+     }
+    }
+   }
+   additionalActions {
+    SCR_ResupplyRocketPodSupportStationAction "{62B2B72BF58B3573}" {
+     ParentContextList {
+      ""
+     }
+     ActionTitle "Resupply: HE"
+     "Sort Priority" -100
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{64CF6E46B23A6A66}" {
+      m_sItemPrefab "{072A755D5CB85D47}Prefabs/Weapons/Ammo/Ammo_Rocket_Hydra70_HE_M229.et"
+     }
+    }
+    SCR_RefundVehicleAmmoSupportStationAction "{62B2D3B0476BF33D}" {
+     CanAggregate 1
+     m_sSoundProject "{9DD9C6279F4489B4}Sounds/SupportStations/SupportStations_Vehicles.acp"
+    }
+    SCR_RefundPylonSupportStationAction "{62B2D3B052E908E4}" {
+    }
+   }
+  }
+ }
+}

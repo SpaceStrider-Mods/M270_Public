@@ -1,0 +1,7 @@
+DeferredDecalEntity : "{2E838C00E0B47DA5}Prefabs/Vehicles/Core/Vehicle_shadow_base.et" {
+ ID "5C7AF48B23DD1093"
+ Box BoundingVolume "{5DF6244FCD66F1E6}" {
+  Size 4 10 2
+ }
+ Material "{A5508045FAF7A93A}Assets/Vehicles/Wheeled/BTR70/Data/BTR70_shadow.emat"
+}
